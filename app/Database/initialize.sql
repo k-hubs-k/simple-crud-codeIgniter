@@ -1,0 +1,14 @@
+CREATE DATABASE IF NOT EXISTS CodeIgniter;
+
+USE CodeIgniter;
+
+CREATE TABLE Users (
+  id INT AUTO_INCREMENT NOT NULL,
+  first_name VARCHAR(255) NOT NULL,
+  last_name VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  age INT NOT NULL,
+  username VARCHAR(255) NOT NULL,
+  password TEXT NOT NULL,
+  PRIMARY KEY(id)
+);
