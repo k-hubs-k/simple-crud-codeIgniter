@@ -1,0 +1,441 @@
+CRITICAL - 2024-09-30 17:23:39 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "([0-9] )"
+[Method: GET, Route: %28%5B0-9%5D%20%29]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:22:26 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "(:num)"
+[Method: GET, Route: %28:num%29]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:24:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 40.
+ 1 APPPATH/Views/liste.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/app/Views/liste.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(70): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:25:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 41.
+ 1 APPPATH/Views/liste.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/app/Views/liste.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(70): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:26:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 41.
+ 1 APPPATH/Views/liste.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/app/Views/liste.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(70): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:26:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 41.
+ 1 APPPATH/Views/liste.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/app/Views/liste.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(70): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:27:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 41.
+ 1 APPPATH/Views/liste.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/app/Views/liste.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(70): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:28:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 41.
+ 1 APPPATH/Views/liste.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/app/Views/liste.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(70): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:28:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 41.
+ 1 APPPATH/Views/liste.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/app/Views/liste.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(70): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:29:37 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 41.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(70): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:29:58 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 41.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(69): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:30:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 41.
+ 1 APPPATH/Views/liste.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/app/Views/liste.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(69): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:30:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 41.
+ 1 APPPATH/Views/liste.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/app/Views/liste.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(69): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:31:24 --> ErrorException: Undefined variable $user
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 37.
+ 1 APPPATH/Views/liste.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/app/Views/liste.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(72): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:32:13 --> Error: Object of class App\Models\UserModel could not be converted to string
+[Method: GET, Route: filter]
+in APPPATH/Controllers/Home.php on line 69.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:34:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 41.
+ 1 APPPATH/Views/liste.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/app/Views/liste.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(72): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:36:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 41.
+ 1 APPPATH/Views/liste.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/app/Views/liste.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(72): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:36:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 41.
+ 1 APPPATH/Views/liste.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/app/Views/liste.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(72): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:36:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 41.
+ 1 APPPATH/Views/liste.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/app/Views/liste.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(72): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+ERROR - 2024-09-30 18:38:34 --> mysqli_sql_exception: Table 'teste.Users' doesn't exist in /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/app/Controllers/Home.php(69): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/CodeIgniter.php(933): App\Controllers\Home->search()
+#5 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#6 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#10 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2024-09-30 18:38:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'teste.Users' doesn't exist
+[Method: GET, Route: filter]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Controllers/Home.php(69): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:38:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'teste.Users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Controllers/Home.php(69): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:38:34 --> [Caused by] mysqli_sql_exception: Table 'teste.Users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Home.php(69): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+ERROR - 2024-09-30 18:38:43 --> mysqli_sql_exception: Table 'teste.User' doesn't exist in /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/app/Controllers/Home.php(69): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/CodeIgniter.php(933): App\Controllers\Home->search()
+#5 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#6 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#10 /home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2024-09-30 18:38:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'teste.User' doesn't exist
+[Method: GET, Route: filter]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Controllers/Home.php(69): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:38:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'teste.User' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Controllers/Home.php(69): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:38:43 --> [Caused by] mysqli_sql_exception: Table 'teste.User' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Home.php(69): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:38:54 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 41.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(72): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:39:21 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 41.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(72): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:39:23 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 41.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(72): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:39:24 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 41.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(72): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
+CRITICAL - 2024-09-30 18:39:40 --> ErrorException: Undefined variable $user
+[Method: GET, Route: filter]
+in APPPATH/Views/liste.php on line 37.
+ 1 APPPATH/Views/liste.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/app/Views/liste.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(71): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/hubs/Development/Php/Frameworks/codeIgniter/codeigniter4-framework-336e078/public/index.php')
